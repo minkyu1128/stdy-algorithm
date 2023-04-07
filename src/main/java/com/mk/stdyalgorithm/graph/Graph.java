@@ -10,6 +10,16 @@ import java.util.*;
  */
 public class Graph {
     protected int V;   // 노드의 개수
+
+    /**
+        adj = [
+            0 : [],
+            1 : [],
+            2 : [],
+            3 : [],
+            ...
+        ]
+     */
     protected LinkedList<Integer> adj[]; // 인접 리스트
 
     /**
